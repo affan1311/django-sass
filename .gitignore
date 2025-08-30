@@ -1,1 +1,3 @@
 venv/
+src/staticfiles/vendors
+local-cdn/

@@ -46,7 +46,7 @@ RUN pip install -r /tmp/requirements.txt
 ARG DJANGO_SECRET_KEY
 ENV DJANGO_SECRET_KEY = ${DJANGO_SECRET_KEY}
 
-ARG DJANO_DEBUG= True
+ARG DJANO_DEBUG= False
 ENV DJANO_DEBUG = ${DJANO_DEBUG}
 # database isn't available during build
 # run any other commands that do not need the database
